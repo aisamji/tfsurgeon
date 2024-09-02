@@ -1,8 +1,10 @@
-[package]
-name = "tf-surgeon"
-version = "0.1.0"
-edition = "2021"
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "tfsurgeon"
+version = "0.1.0"
+authors = ["Ali Samji"]
+edition = "2021"
+license = "MIT"
+description = "A command-line utility to perform 'terraform surgery' on one or more terraform state files."
 
 [dependencies]
